@@ -19,7 +19,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
+
+#ifndef MOLLENOS
 #include <memory.h>
+#endif
 
 #include "nanovg.h"
 #define FONTSTASH_IMPLEMENTATION
